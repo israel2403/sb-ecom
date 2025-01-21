@@ -6,5 +6,6 @@ import lombok.Data;
 @Data
 @Schema(name = "CategoryRequest", description = "Category Request")
 public class CategoryRequest {
-    private String categoryName;
+  @Schema(description = "Category name", example = "Electronics")
+  private String categoryName;
 }

@@ -4,8 +4,8 @@ import com.intuit.karate.junit5.Karate;
 
 class CategoryGetAllTest {
 
-    @Karate.Test
-    Karate testGetAllCategories() {
-        return Karate.run("classpath:features/category-get-all.feature");
-    }
+  @Karate.Test
+  Karate testGetAllCategories() {
+    return Karate.run("classpath:features/category-get-all.feature");
+  }
 }

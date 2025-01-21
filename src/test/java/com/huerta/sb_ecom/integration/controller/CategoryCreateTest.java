@@ -4,8 +4,8 @@ import com.intuit.karate.junit5.Karate;
 
 class CategoryCreateTest {
 
-    @Karate.Test
-    Karate testCreateCategory() {
-        return Karate.run("classpath:features/category-create.feature");
-    }
+  @Karate.Test
+  Karate testCreateCategory() {
+    return Karate.run("classpath:features/category-create.feature");
+  }
 }
